@@ -41,11 +41,8 @@ export default function Home() {
       headers: { }
     };
 
-    console.log(baseURL)
-
     axios(config)
       .then(response => {
-        console.log(response.data)
         setCode(response.data)
         })
       .catch(error => console.log(error));
