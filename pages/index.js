@@ -71,7 +71,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
 
-      <main style={{padding:"25px"}}>
+      <main style={{paddingTop:"10px"}}>
         <Heading>NFT Metadata</Heading>
           <Input variant='flushed' value={contractAddr} style={{marginBottom:"15px"}} placeholder='Contract address' onChange={(e) => setContractAddr(e.target.value)} />
           <SimpleGrid columns={{sm: 1, md: 3, lg: 5}} gap={6}>
